@@ -1,0 +1,81 @@
+.fadeInBottom { animation-name: fadeInBottom }
+@keyframes fadeInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to { opacity: 1 }
+}
+.section-2__button {
+  padding: 25px 60px;
+  margin-bottom: 103px;
+  opacity: 0;
+  transition: 2s;
+}
+.section-2 {
+  text-align: center;
+  background-color: #fff;
+}
+.section-2__h2 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 54px;
+  padding-top: 100px;
+  margin-bottom: 93px;
+}
+.section-2__ul-li__icone-1 , .section-2__ul-li__icone-2, .section-2__ul-li__icone-3, .section-2__ul-li__icone-4 {
+  height: 74px;
+  margin-bottom: 25px;
+}
+.section-2__ul {
+  display: flex;
+
+  color: #8993ad;
+  font-size: 20px;
+  margin-bottom: 39px;
+}
+.section-2__ul-li {
+  opacity: 0;
+  transition: 3s;
+  margin-right: 30px;
+}
+.section-2__ul-li:last-child {
+  margin-right: 0;
+}
+@media (max-width: 1024px) {
+  .section-2__ul {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
+  }
+  .section-2__ul-li {
+    margin-bottom: 88px;
+    margin-right: 0px;
+    flex-basis: 35%;
+  }
+}
+@media (max-width: 520px) {
+  .section-2__ul {
+    justify-content: flex-start;
+    flex-direction: column;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .section-2__h2 {
+    padding-top: 50px;
+    margin-bottom: 46px;
+    font-size: 30px;
+  }
+  .section-2__ul-li {
+    margin-bottom: 56px;
+    width: 80%;
+    align-self: center;
+  }
+  .section-2__button {
+    margin: 0;
+    margin-bottom: 103px;
+  }
+  .section-2__ul-li__icone-1 , .section-2__ul-li__icone-2, .section-2__ul-li__icone-3, .section-2__ul-li__icone-4 {
+    height: 56px;
+  }
+}

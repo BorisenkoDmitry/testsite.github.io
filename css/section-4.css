@@ -1,0 +1,70 @@
+.section-4 {
+  position: relative;
+  background: rgb(255,143,90);
+  background: linear-gradient(13deg, rgba(255,143,90,1) 28%, rgba(255,47,150,1) 69%);
+  overflow: hidden;
+}
+.section-4::before {
+  content: url(../img/s-4-font.png);
+  position: absolute;
+  top: 0;
+  left: 0;
+  left: 129px;
+  top: 45px;
+}
+.section-4__article__h3 {
+  font-size: 45px;
+  font-weight: 700;
+  color: white;
+  width: 957px;
+  padding: 0;
+  margin: 88px 0px 0px 117px;
+}
+.section-4__article__p {
+  font-size: 18px;
+  color: white;
+  margin: 42px 0px 90px 117px;
+  line-height: 34px;
+}
+@media (max-width: 1260px) {
+  .section-4__article__h3 {
+    margin: 88px 0px 0px 0px;
+  }
+  .section-4__article__p {
+    margin: 42px 0px 90px 0px;
+  }
+}
+@media (max-width: 1024px) {
+  .section-4__article__h3 {
+    width: auto;
+  }
+  .section-4::before {
+    content: url(../img/s-4-font-planshet.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    left: 155px;
+    top: 26px;
+  }
+}
+@media (max-width: 520px) {
+  .section-4__article__h3 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .section-4__article__p {
+    font-size: 15px;
+    line-height: 30px;
+  }
+}
+@media (max-width: 350px) {
+  .section-4::before {
+    content: none;
+  }
+  .section-4__article__h3 {
+    margin: 50px 0px 50px 0px;
+  }
+  .section-4__article__p {
+    margin: 0px 0px 50px 0px;
+  }
+}
