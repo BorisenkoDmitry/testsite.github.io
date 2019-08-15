@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width">
+	<meta charset="utf-8">
+	<title>Front-end разработчик и веб-верстальщик: Дмитрий Алексеев</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="css/buttonHamburger.css">
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="css/modal-window.css">
+	<link rel="stylesheet" type="text/css" href="css/section-1.css">
+	<link rel="stylesheet" type="text/css" href="css/section-2.css">
+	<link rel="stylesheet" type="text/css" href="css/section-3.css">
+	<link rel="stylesheet" type="text/css" href="css/section-4.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+		<link rel="stylesheet" type="text/css" href="css/icofont.css">
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<div id="modal-window" class="modal-window">
+		<div class="modal-window__container">
+			<button class="modal-window__container__button__close"> </button>
+			<form class="modal-window__container__form">
+				<fieldset>
+					<label class="modal-window__container__form__label-name" for="modal-name">Ваше имя</label>
+					<input class="modal-window__container__form__input-name" id="modal-name" type="text" placeholder="Введите имя" name="name">
+				</fieldset>
+
+				<fieldset>
+				<label class="modal-window__container__form__label-mail" for="modal-mail">Ваша почта</label>
+				<input class="modal-window__container__form__input-mail" id="modal-mail" type="email" placeholder="Введие email" name="mail">
+				</fieldset>
+
+				<fieldset>
+					<label class="modal-window__container__form__label-phone" for="modal-phone">Телефон</label>
+					<input class="modal-window__container__form__input-phone" id="modal-phone" type="tel" placeholder="Введие телефон" name="phone">
+				</fieldset>
+			</form>
+
+			<button class="modal-window__container__button__send">Отправить</button>
+		</div>
+	</div>
+
+	<header>
+	<div class="header fixed-container">
+		<div class="header-hamburger">
+				<button class="header-hamburger__button c-hamburger--htx">
+					<span>toggle menu</span>
+				</button>
+		</div>
+		<nav class="header-nav">
+			<ul class="header-nav__ul">
+				<li class="header-nav__ul-li"><a href="#section-2">Услуги</a></li>
+				<li class="header-nav__ul-li"><a href="#section-3">Портфолио</a></li>
+				<li class="header-nav__ul-li"><a href="#section-4">Стоимость</a></li>
+			<ul>
+		</nav>
+
+		<div class="header-ordercall">
+			<a class="header-ordercall__phone" href="tel:">+7 (499) 995-55-77</a>
+			<button class="header-ordercall__button open-modal">Заказать звонок</button>
+		</div>
+	</div>
+</header>
+
+	<section id="section-1"	class="section-1">
+		<div class="section-1__elements">
+			<span class="section-1__elements-1 animate-element">{ }</span>
+			<span class="section-1__elements-2 animate-element">#</span>
+			<span class="section-1__elements-3 animate-element">&lt;/&gt;</span>
+			<span class="section-1__elements-4-planshet animate-element">&lt;/&gt;</span>
+			<span class="section-1__elements-4 animate-element">&lt;div&gt;</span>
+			<span class="section-1__elements-5 animate-element">&lt;div&gt;</span>
+		</div>
+		<div class="section-1__picture clearfix">
+			<img class="section-1__picture-img" src="img/person-photo.png">
+		</div>
+		<div class="section-1__textblock fixed-container">
+			<h1 class="section-1__textblock-h1">Дмитрий Алексеев</h1>
+
+		 	<p class="section-1__textblock-specialization">Frontend-разработчик и веб-верстальщик</p>
+
+			<button class="section-1__textblock-button button-style">Узнать больше</button>
+		</div>
+	</section>
+
+	<section id="section-2" class="section-2">
+		<div class="fixed-container">
+			<h2 class="section-2__h2">Что я делаю</h2>
+
+			<ul class="section-2__ul">
+				<li class="section-2__ul-li">
+					<object class="section-2__ul-li__icone-1" type="image/svg+xml" data="img/icones/icone-1.svg">
+					  <img src="img/icones/icone-1.png" alt="Первый значок">
+					</object>
+
+					<p>Вёрстка лендинг–страниц и сайтов любой сложности</p>
+				</li>
+
+				<li class="section-2__ul-li">
+					<object class="section-2__ul-li__icone-2" type="image/svg+xml" data="img/icones/icone-2.svg">
+						<img src="img/icones/icone-2.png" alt="Второй значок">
+					</object>
+
+					<p>Адаптивная вёрстка под все браузеры и устройства</p>
+				</li>
+
+				<li class="section-2__ul-li">
+					<object class="section-2__ul-li__icone-3" type="image/svg+xml" data="img/icones/icone-3.svg">
+						<img src="img/icones/icone-3.png" alt="Третий значок">
+					</object>
+
+					<p>Frontend–разработка и программирование</p>
+				</li>
+
+				<li class="section-2__ul-li">
+					<object class="section-2__ul-li__icone-4" type="image/svg+xml" data="img/icones/icone-4.svg">
+						<img src="img/icones/icone-4.png" alt="Четвёртый значок">
+					</object>
+
+					<p>Исправление и доработка существующей вёрстки</p>
+				</li>
+			</ul>
+
+			<button class="section-2__button button-style">Узнать стоимость</button>
+		</div>
+	</section>
+	<section id="section-3" class="section-3 fixed-container clearfix">
+		<h2 class="section-3__h2">Примеры моих работ</h2>
+
+		<ul class="section-3__slider fixed-container">
+			<li class="section-3__slider-li"><a class="section-3__slider-li__a" href="#"><img class="section-3__slider-li__a__img" src="img/sliderphoto/1.jpg"></a> <a class="section-3__slider-li__a__nameproject">Сайт психолога Веры Антоновой</a></li>
+			<li class="section-3__slider-li"><a class="section-3__slider-li__a" href="#"><img class="section-3__slider-li__a__img" src="img/sliderphoto/2.jpg"></a> <a class="section-3__slider-li__a__nameproject">Сайт психолога Веры Антоновой</a></li>
+			<li class="section-3__slider-li"><a class="section-3__slider-li__a" href="#"><img class="section-3__slider-li__a__img" src="img/sliderphoto/3.jpg"></a> <a class="section-3__slider-li__a__nameproject">Сайт психолога Веры Антоновой</a></li>
+		</ul>
+
+		<button class="section-3__button button-style open-modal">Заказать проект</button>
+	</section>
+
+	<section id="section-4" class="section-4">
+		<article class="section-4__article fixed-container clearfix">
+			<h3 class="section-4__article__h3">Адаптивная вёрстка под все устройства и браузеры от 1000 рублей всего за 4 часа.*</h3>
+
+			<p class="section-4__article__p">* Срок и стоимость могут отличаться от заявленных и рассчитываются  индивидуально, в зависимости от сложности задач.</p>
+		</article>
+	</section>
+
+	<footer class="footer">
+		<div class="footer-section1 fixed-container">
+			<nav class="footer-section1__nav">
+				<ul class="footer-section1__nav__ul">
+					<li class="footer-section1__nav__ul-li"><a href="#" class="footer-section1__nav__ul-li__a">Услуги</a></li>
+					<li class="footer-section1__nav__ul-li"><a href="#" class="footer-section1__nav__ul-li__a">Портфолио</a></li>
+					<li class="footer-section1__nav__ul-li"><a href="#" class="footer-section1__nav__ul-li__a">Стоимость</a></li>
+				</ul>
+			</nav>
+
+			<ul class="footer-section1__contacts">
+				<li class="footer-section1__contacts__li"><a href="tel:" class="footer-section1__contacts__li__a"><span class="icofont-ui-touch-phone"></span>+7 (499) 995-77-55</a></li>
+				<li class="footer-section1__contacts__li"><a href="mailto:" class="footer-section1__contacts__li__a"><span class="icofont-send-mail"></span>dmitry@alekseev.com</a></li>
+			</ul>
+
+			<div class="footer-section1__call">
+				<div class="ff"><button class="footer-section1__call__button open-modal">Заказать звонок</button></div>
+
+				<ul class="footer-section1__social clearfix">
+					<li class="footer-section1__social__li"><a href="#"><div class="soc-a-vk"> </div></a></li>
+					<li class="footer-section1__social__li"><a href="#"><div class="soc-a-fb"> </div></a></li>
+					<li class="footer-section1__social__li"><a href="#"><div class="soc-a-tw"> </div></a></li>
+					<li class="footer-section1__social__li"><a href="#"><div class="soc-a-inst"> </div></a></li>
+				</ul>
+			</div>
+
+		</div>
+		<div class="footer-section2">
+			<p>© Дмитрий Алексеев, 2016 – 2018</p>
+		</div>
+	</footer>
+</body>
+</html>
